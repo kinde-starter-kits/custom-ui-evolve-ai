@@ -63,7 +63,6 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Layout context={context} request={request}>
       <div style={styles.container}>
-        <div className="image-header"></div>
         <main style={styles.loginForm}>
           <div style={styles.logoWrapper}>
             <img style={styles.logo} src={getLogoUrl()} />
