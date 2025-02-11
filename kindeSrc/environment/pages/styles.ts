@@ -25,9 +25,7 @@ export const generateCSSVariables = (): string => `
     --kinde-button-primary-background-color: ${kindeVariables.buttonPrimaryBackgroundColor};
     --kinde-button-primary-color: ${kindeVariables.buttonPrimaryColor};
     --kinde-button-border-radius: ${kindeVariables.buttonBorderRadius};
-    --kinde-button-secondary-background-color: ${kindeVariables.buttonSecondaryBackgroundColor};
     --kinde-button-secondary-border-width: ${kindeVariables.buttonSecondaryBorderWidth};
-    --kinde-button-secondary-border-color: ${kindeVariables.buttonSecondaryBorderColor};
     --kinde-button-secondary-border-style: ${kindeVariables.buttonSecondaryBorderStyle};
     --kinde-button-secondary-border-radius: ${kindeVariables.buttonSecondaryBorderRadius};
     --kinde-control-label-color: #fff;
@@ -43,25 +41,11 @@ export const generateCSSVariables = (): string => `
     color: #ABABAB;
   }
 
-  [data-kinde-layout-auth-buttons] {
-    display: flex;
-  }
-
-  [data-kinde-layout-auth-buttons-item] {
-    width: 100%;
-  }
-
-  [data-kinde-layout-auth-buttons] [data-kinde-button-text] {
-    display: none;
-  }
 
   .kinde-branding a {
     color: #fff;
   }
 
-  [data-kinde-fallback-action] {
-    display: none;
-  }
 
   .footer {
     color: #fff;
