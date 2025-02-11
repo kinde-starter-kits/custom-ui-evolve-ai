@@ -4,7 +4,7 @@ const kindeVariables = {
     "Instrument Sans, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "1rem",
   buttonPrimaryBackgroundColor: "#C1AFEF",
-  buttonPrimaryColor: "#000",
+  buttonPrimaryColor: "#f5f5f5",
   buttonBorderRadius: "1rem",
   buttonSecondaryBackgroundColor: "#2B2B2B",
   buttonSecondaryBorderWidth: "1px",
@@ -39,6 +39,10 @@ export const generateCSSVariables = (): string => `
 
   [data-kinde-choice-separator] { 
     color: #ABABAB;
+  }
+
+  [data-kinde-button-variant=primary] { 
+    background: linear-gradient(90deg, #467BE6 30.32%, #212581 100%);
   }
 
 

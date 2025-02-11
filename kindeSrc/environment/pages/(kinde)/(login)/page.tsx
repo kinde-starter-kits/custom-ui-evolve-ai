@@ -28,7 +28,7 @@ const styles: {
       "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
   },
   loginForm: {
-    maxWidth: "400px",
+    maxWidth: "496px",
     width: "100%",
     margin: "0 auto",
     padding: "3rem",
