@@ -57,9 +57,7 @@ const styles: {
     justifyContent: "center",
     marginBottom: "3rem",
   },
-  logo: {
-    width: "115.5px",
-  },
+  logo: {},
 };
 
 const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
@@ -68,7 +66,7 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
       <div style={styles.container}>
         <main style={styles.loginForm}>
           <div style={styles.logoWrapper}>
-            <img style={styles.logo} src={getLogoUrl()} />
+            <img style={styles.logo} src={"/logo"} />
           </div>
           <div
             style={{
