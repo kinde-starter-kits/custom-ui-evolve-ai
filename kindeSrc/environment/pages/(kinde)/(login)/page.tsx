@@ -44,9 +44,10 @@ const styles: {
     color: "#F5F5F5",
     fontSize: "32px",
     fontStyle: "normal",
-    fontWeight: 650,
+    fontWeight: 500,
     lineHeight: "32px" /* 100% */,
     letterSpacing: "-0.64px",
+    textAlign: "center",
   },
   description: {
     marginBottom: "1.5rem",
@@ -69,10 +70,12 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
           <div style={styles.logoWrapper}>
             <img style={styles.logo} src={getLogoUrl()} />
           </div>
-          <div>
-            <h2 className="sf-pro" style={styles.heading}>
-              {context.widget.content.heading}
-            </h2>
+          <div
+            style={{
+              width: "100%",
+            }}
+          >
+            <h2 style={styles.heading}>{context.widget.content.heading}</h2>
             <p style={styles.description}>
               {context.widget.content.description}
             </p>
