@@ -1,7 +1,7 @@
 // CSS Variables configuration
 const kindeVariables = {
   baseFontFamily:
-    "SF Pro, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
+    "Instrument Sans, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "1rem",
   buttonPrimaryBackgroundColor: "#C1AFEF",
   buttonPrimaryColor: "#000",
@@ -15,14 +15,8 @@ const kindeVariables = {
 
 export const generateCSSVariables = (): string => `
   @font-face {
-    font-family: SF Pro;
-    src: url(https://asset.kindedemo.com/orbit/SF-Pro.ttf);
-  }
-
-  @font-face {
-    font-family: SF Pro Expanded Semibold;
-    src: url(https://asset.kindedemo.com/orbit/SF-Pro-Expanded.ttf);
-    font-weight: 600;
+    font-family: Instrument Sans;
+    src: url(https://asset.kindedemo.com/evolve-ai/InstrumentSans-VariableFont_wdth,wght.ttf);
   }
 
   :root {
