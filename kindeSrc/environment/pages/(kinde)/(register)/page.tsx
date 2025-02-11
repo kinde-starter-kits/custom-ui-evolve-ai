@@ -12,7 +12,6 @@ import Layout from "../../layout";
 
 const styles: {
   container: React.CSSProperties;
-  loginForm: React.CSSProperties;
   heading: React.CSSProperties;
   description: React.CSSProperties;
   logo: React.CSSProperties;
@@ -26,19 +25,7 @@ const styles: {
     background:
       "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
   },
-  loginForm: {
-    maxWidth: "496px",
-    width: "100%",
-    margin: "0 auto",
-    padding: "3rem",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: "32px",
-    background: "rgba(0, 0, 0, 0.2)",
-    height: "100%",
-  },
+
   heading: {
     alignSelf: "stretch",
     color: "#F5F5F5",
