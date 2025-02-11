@@ -16,7 +16,6 @@ const styles: {
   heading: React.CSSProperties;
   description: React.CSSProperties;
   logo: React.CSSProperties;
-  logoWrapper: React.CSSProperties;
 } = {
   container: {
     minHeight: "100vh",
@@ -59,7 +58,7 @@ const styles: {
   },
 };
 
-const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
+const LoginPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Layout context={context} request={request}>
       <div style={styles.container}>
@@ -92,6 +91,6 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
 
 // Page Component
 export default async function Page(event: KindePageEvent): Promise<string> {
-  const page = await DefaultPage(event);
+  const page = await LoginPage(event);
   return renderToString(page);
 }
