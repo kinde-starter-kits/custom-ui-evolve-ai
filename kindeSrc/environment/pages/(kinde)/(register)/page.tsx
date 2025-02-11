@@ -52,7 +52,7 @@ const RegisterPage: React.FC<KindePageEvent> = ({ context, request }) => {
         <div className="header">
           <img style={styles.logo} src={"/logo"} />
         </div>
-        <main style={styles.loginForm}>
+        <main className="login-form">
           <div
             style={{
               width: "100%",
