@@ -20,7 +20,8 @@ const styles: {
 } = {
   container: {
     minHeight: "100vh",
-    background: "#000",
+    background:
+      "radial-gradient(121.41% 87.81% at 28.97% 26.62%, #221C51 0%, #19143F 36.5%, #000 89.5%)",
     color: "#fff",
     display: "flex",
     flexDirection: "column",
