@@ -64,10 +64,12 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
   return (
     <Layout context={context} request={request}>
       <div style={styles.container}>
-        <main style={styles.loginForm}>
+        <div className="header">
           <div style={styles.logoWrapper}>
             <img style={styles.logo} src={"/logo"} />
           </div>
+        </div>
+        <main style={styles.loginForm}>
           <div
             style={{
               width: "100%",
@@ -80,6 +82,12 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
             {getKindeWidget()}
           </div>
         </main>
+        <div className="footer">
+          <div className="terms">
+            <a href="https://www.kinde.com">Terms of use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
       </div>
     </Layout>
   );

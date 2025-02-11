@@ -85,11 +85,6 @@ export const generateCSSVariables = (): string => `
       height: 200px;
       margin-bottom: 1.5rem;
     }
-
-    .footer {
-      flex-direction: row;
-      justify-content: space-between;
-    }
   
   }
 `;
