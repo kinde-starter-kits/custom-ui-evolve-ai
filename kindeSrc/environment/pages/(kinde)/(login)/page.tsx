@@ -38,6 +38,7 @@ const styles: {
     alignItems: "center",
     borderRadius: "32px",
     background: "rgba(0, 0, 0, 0.2)",
+    height: "100%",
   },
   heading: {
     alignSelf: "stretch",
@@ -52,12 +53,10 @@ const styles: {
   description: {
     marginBottom: "1.5rem",
   },
-  logoWrapper: {
-    display: "flex",
-    justifyContent: "center",
-    marginBottom: "3rem",
+
+  logo: {
+    width: "200px",
   },
-  logo: {},
 };
 
 const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
@@ -65,9 +64,7 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
     <Layout context={context} request={request}>
       <div style={styles.container}>
         <div className="header">
-          <div style={styles.logoWrapper}>
-            <img style={styles.logo} src={"/logo"} />
-          </div>
+          <img style={styles.logo} src={"/logo"} />
         </div>
         <main style={styles.loginForm}>
           <div

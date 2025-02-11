@@ -69,15 +69,16 @@ export const generateCSSVariables = (): string => `
   }
 
   .footer a {
-    font-weight: 700;
-    color: #fff;
+    font-weight: 500;
+    color: #dbdbdb;
     text-decoration: none;
   }
 
-  .image-header {
-    height: 150px;
-    background: url(https://asset.kindedemo.com/orbit/aac433a14500955ae1c8641e71da2076.jpeg) no-repeat center center;
-    background-size: cover;
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
   }
 
   @media (min-width: 768px) { 
