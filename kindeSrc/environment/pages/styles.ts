@@ -81,11 +81,28 @@ export const generateCSSVariables = (): string => `
     padding: 3rem;
   }
 
+  .login-form {
+    max-width: 496px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    height: 100%;
+    background: transparent;
+  }
+
   @media (min-width: 768px) { 
     .image-header {
       height: 200px;
       margin-bottom: 1.5rem;
     }
-  
+
+    .login-form {
+      background: rgba(0, 0, 0, 0.2);
+    }
   }
 `;
