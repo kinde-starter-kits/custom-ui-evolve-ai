@@ -20,12 +20,12 @@ const styles: {
 } = {
   container: {
     minHeight: "100vh",
-    background:
-      "radial-gradient(121.41% 87.81% at 28.97% 26.62%, #221C51 0%, #19143F 36.5%, #000 89.5%)",
     color: "#fff",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
+    background:
+      "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
   },
   loginForm: {
     maxWidth: "400px",
