@@ -1,8 +1,10 @@
-# 🎨 Evolve.ai - Kinde Custom UI Starter Template
+# 🤖 Evolve.ai - Kinde Custom UI Starter Template
 
 A fully customizable UI starter template built with React Server Components and Kinde's Custom UI feature. Design your auth flows with complete control over the UI.
 
 ## Preview
+
+View [live demo](https://evolveai.kindedemo.com/auth/cx/_:nav&m:login&psid:0194f24f2a4c79a57138aa68cec78ab4)
 
 ![Evolve.ai](image.png)
 
