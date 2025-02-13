@@ -68,9 +68,9 @@ const DefaultPage: React.FC<KindePageEvent> = ({ context, request }) => {
             <img style={styles.logo} src={getLogoUrl()} />
           </div>
           <div>
-            <h2 className="sf-pro" style={styles.heading}>
+            <h1 className="sf-pro" style={styles.heading}>
               {context.widget.content.heading}
-            </h2>
+            </h1>
             <p style={styles.description}>
               {context.widget.content.description}
             </p>

@@ -58,7 +58,7 @@ const RegisterPage: React.FC<KindePageEvent> = ({ context, request }) => {
               width: "100%",
             }}
           >
-            <h2 style={styles.heading}>{context.widget.content.heading}</h2>
+            <h1 style={styles.heading}>{context.widget.content.heading}</h1>
             <p style={styles.description}>
               {context.widget.content.description}
             </p>
