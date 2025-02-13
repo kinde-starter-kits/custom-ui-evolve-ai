@@ -1,11 +1,6 @@
 "use server";
 
-import {
-  getKindeRegisterUrl,
-  getKindeWidget,
-  getLogoUrl,
-  type KindePageEvent,
-} from "@kinde/infrastructure";
+import { getKindeWidget, type KindePageEvent } from "@kinde/infrastructure";
 import React from "react";
 import { renderToString } from "react-dom/server.browser";
 import Layout from "../../layout";
