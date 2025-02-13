@@ -23,7 +23,7 @@ A fully customizable UI starter template built with React Server Components and 
 In your project root directory, use the Kinde CLI and run
 
 ```bash
-kinde custom-ui --template splitscape
+kinde custom-ui --template evolve-ai
 ```
 
 ## Customization Guide
