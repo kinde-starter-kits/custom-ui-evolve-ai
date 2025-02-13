@@ -17,6 +17,7 @@ export const generateCSSVariables = (): string => `
   @font-face {
     font-family: Instrument Sans;
     src: url(https://asset.kindedemo.com/evolve-ai/InstrumentSans-VariableFont_wdth,wght.ttf);
+    /* replace with your font (hosted on your server) */
   }
 
   :root {
