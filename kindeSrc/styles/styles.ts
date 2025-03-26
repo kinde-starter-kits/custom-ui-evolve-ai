@@ -33,7 +33,7 @@ export const getStyles = (): string => `
     --kinde-button-font-weight: 700;
     --kinde-control-select-text-border-color: #636363;
     --kinde-button-primary-border-width: 0;
-    --kinde-text-link-color: #fff;
+    --kinde-designer-base-link-color: #fff;
   }
 
   [data-kinde-control-label] {
