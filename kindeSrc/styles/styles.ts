@@ -13,7 +13,7 @@ const kindeVariables = {
   buttonSecondaryBorderRadius: "1rem",
 } as const;
 
-export const generateCSSVariables = (): string => `
+export const getStyles = (): string => `
   @font-face {
     font-family: Instrument Sans;
     src: url(https://asset.kindedemo.com/evolve-ai/InstrumentSans-VariableFont_wdth,wght.ttf);
@@ -33,6 +33,7 @@ export const generateCSSVariables = (): string => `
     --kinde-button-font-weight: 700;
     --kinde-control-select-text-border-color: #636363;
     --kinde-button-primary-border-width: 0;
+    --kinde-text-link-color: #fff;
   }
 
   [data-kinde-control-label] {
