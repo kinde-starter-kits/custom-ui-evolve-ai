@@ -22,44 +22,35 @@ View [live demo](https://evolveai.kindedemo.com/auth/cx/_:nav&m:login&psid:0194f
 
 ## Quick Start
 
-Given the mismatch between the current CLI and the repository, the **Quick Start** section should pivot to the "Git Sync" method. This is the most reliable way for users to get the template running without hitting command errors.
+This template is designed to work with Kinde's Git Sync feature, allowing you to manage your Custom UI directly from GitHub.
 
-Here is the updated section for your README:
-
----
-
-## Quick Start
-
-The most efficient way to use the **Evolve Custom UI Starter Template** is through Kinde's **Git Sync** workflow. This allows you to manage your UI via GitHub and automatically sync changes to your Kinde admin.
-
-### 1. Fork this Repository
-
-Click the **Fork** button at the top of this page to create a copy of this template in your own GitHub account.
-
-### 2. Connect to Kinde
-
-1. Log in to your **Kinde Admin** panel.
-2. Navigate to **Settings > Design > Custom UI**.
-3. Select **Connect to GitHub**.
-4. Choose your forked `custom-ui-evolve-ai` repository and follow the prompts to authorize the connection.
-
-### 3. Local Development
-
-To make changes locally, clone your fork and install the dependencies:
-
-```bash
-# Clone your fork
-git clone https://github.com/YOUR_USERNAME/custom-ui-evolve-ai.git
-
-# Navigate to the directory
-cd custom-ui-evolve-ai
-
-# Install dependencies
-npm install
+### 1. Setup
+Fork this repository to your own GitHub account, then clone it locally to begin editing:
 
 ```
+# Clone your forked repository
+git clone https://github.com/YOUR_USERNAME/custom-ui-evolve-ai.git
+ 
+ # Enter the directory
+ cd custom-ui-evolve-ai
+ 
+ # Install dependencies
+ npm install
+ ```
+ 
+ ### 2. Connect to Kinde
+ To deploy your UI, link your repository to Kinde:
+ 
+ 1. Log in to Kinde Admin and go to Settings > Design > Custom UI.
+ 2. Select Connect to GitHub.
+ 3. Authorize access and select your forked custom-ui-evolve-ai repository.
+ 
+ ### 3. Workflow
+ Kinde automatically watches your repository for updates.
+ 
+ * Push changes to your main branch to trigger a sync.
+ * Return to the Custom UI page in Kinde to preview your new version and publish it live.
 
-Once your changes are pushed to your `main` branch, Kinde will automatically detect apply the updates to your Custom UI and you can manage them and make the latest changes live via the UI.
 
 
 ## Customization Guide
