@@ -22,11 +22,36 @@ View [live demo](https://evolveai.kindedemo.com/auth/cx/_:nav&m:login&psid:0194f
 
 ## Quick Start
 
-In your project root directory, use the Kinde CLI and run
+This template is designed to work with Kinde's Git Sync feature, allowing you to manage your Custom UI directly from GitHub.
 
-```bash
-kinde custom-ui --template evolve-ai
+### 1. Setup
+Fork this repository to your own GitHub account, then clone it locally to begin editing:
+
 ```
+# Clone your forked repository
+git clone https://github.com/YOUR_USERNAME/custom-ui-evolve-ai.git
+ 
+ # Enter the directory
+ cd custom-ui-evolve-ai
+ 
+ # Install dependencies
+ npm install
+ ```
+ 
+ ### 2. Connect to Kinde
+ To deploy your UI, link your repository to Kinde:
+ 
+ 1. Log in to Kinde Admin and go to Settings > Design > Custom UI.
+ 2. Select Connect to GitHub.
+ 3. Authorize access and select your forked custom-ui-evolve-ai repository.
+ 
+ ### 3. Workflow
+ Kinde automatically watches your repository for updates.
+ 
+ * Push changes to your main branch to trigger a sync.
+ * Return to the Custom UI page in Kinde to preview your new version and publish it live.
+
+
 
 ## Customization Guide
 
